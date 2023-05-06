@@ -12,7 +12,7 @@ const ContactForm = () => {
   const contacts = useSelector(getContacts);
   return (
     <>
-      <form
+ <form
         className={css.form}
         onSubmit={evt => {
           evt.preventDefault();
